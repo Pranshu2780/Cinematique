@@ -1,0 +1,126 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    top:0;
+  }
+
+.nav{
+    top : 0;
+    left: 0;
+    color: white;
+    position: fixed;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    background-color: black;
+    list-style-type: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    z-index: 500;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 21px 16px;
+    font-size: 20px;
+    color:white;
+    
+}
+
+.nav_btn{
+    padding:0px 30px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+#eigan{
+    color: orangered;
+    text-decoration: none;
+    padding: 15px 5px;
+    font-size: 30px;
+    cursor: default;
+}
+
+.hover>li a:hover{
+    background-color:orangered;
+    text-decoration: none;
+    width:100%;
+}
+
+.signup{
+    padding:2px 143px;
+}
+
+#btn1{
+    margin-top: 5px;
+    padding: 12px;
+    background-color:orangered;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    padding-top: 55px;
+    padding-left:40px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+  }
+  
+
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 1 0 21%; /*special case*/
+    padding: 30px;  
+    line-height: 60px;
+  }
+
+.homy{
+    padding-top:65px;
+    width: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;  ;
+  -webkit-filter: contrast(200%);
+     -moz-filter: contrast(200%);
+}
+
+
+.text1 .quote{
+    top:28%;
+    color:orangered;
+    font-size: 70px;
+    padding:0px 270px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.text1 .para{
+    top:47%;
+    padding:15%;
+    color: orangered;
+    font-size: 70px;
+    font-weight: bold;
+    left :25%;
+}
+    

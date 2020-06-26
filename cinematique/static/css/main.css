@@ -78,31 +78,21 @@ li a{
     box-sizing: border-box;
   }
   
-  .row {
-    display: flex;
-    padding-top: 55px;
-    padding-left:40px;
-    padding-right: 40px;
-    flex-wrap: wrap;
-  }
+
   
 
   /* Create three equal columns that sits next to each other */
-  .column {
-    flex: 1 0 21%; /*special case*/
-    padding: 30px;  
-    line-height: 60px;
-  }
+  
 
 .homy{
     padding-top:65px;
     width: 100%;
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.2;  ;
-  -webkit-filter: contrast(200%);
-     -moz-filter: contrast(200%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;  ;
+    -webkit-filter: contrast(200%);
+   -moz-filter: contrast(200%);
 }
 
 
@@ -123,4 +113,44 @@ li a{
     font-weight: bold;
     left :25%;
 }
-    
+
+.row{
+    display: flex;
+  
+}
+
+.card {
+    flex: 1 0 21;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top:100px;
+    margin-left: 55px;
+    margin-right: 55px  ;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+

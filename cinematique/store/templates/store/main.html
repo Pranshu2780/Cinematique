@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="{% static 'app.js' %}" >
+
+    </script>
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <title>Cinematique</title>
 </head>
@@ -16,11 +19,11 @@
             <li> <a class = "eiga" id = eigan   href=""> <strong>CINEMATIQUE</strong> </a></li>
         
            <section class="hover">
-                <li class="nav_btn"><a href="home/">Home</a></li>
-                <li class="nav_btn"><a href="hollywood/">Hollywood</a></li>
-                <li class="nav_btn"><a href="bollywood/">Bollywood</a></li>
-                <li class="nav_btn"><a href="anime/">Anime</a></li>
-                <li class="nav_btn"><a href="web/">Web</a></li>
+                <li class="nav_btn"><a href="/home">Home</a></li>
+                <li class="nav_btn"><a href="/hollywood">Hollywood</a></li>
+                <li class="nav_btn"><a href="/bollywood">Bollywood</a></li>
+                <li class="nav_btn"><a href="/anime">Anime</a></li>
+                <li class="nav_btn"><a href="/web">Web</a></li>
              </section>
              
              <li class = "signup"> <button class="btn" id="btn1" >Sign Up with Email</button> </li>
@@ -35,5 +38,6 @@
         {% endblock content %}
     </div>
 
+    
 </body>
 </html>

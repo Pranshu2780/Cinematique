@@ -15,11 +15,10 @@ a{
 .container{
     width: 100%;
     height: 100vh;
-    /* background-color: #a4152c; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:250px ;
+    margin-top:200px ;
 }
 
 .box{
@@ -73,3 +72,8 @@ a{
     align-items: center;
 }
 
+.desc{
+    border-radius: 3px solid green;
+    outline: none;
+    background: none;
+}

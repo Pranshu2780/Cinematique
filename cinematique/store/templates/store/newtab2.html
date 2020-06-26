@@ -1,0 +1,27 @@
+{% extends 'store/main.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/newtab.css' %}"> 
+ 
+<div class="boxy">
+    {% for item in bollywood %}
+    <div class="pres1">
+        <img style="border-radius: 10px;"
+         src="{{item.image.url}}" alt="" width="100%" height="100%">
+      </div>
+      
+      <div style="color: white;" class="pres">
+        <h1 style="text-align: center;padding-top: 50px;">{{item.name}} </h1>
+        <h3 style="padding-left: 10px;padding-top: 10px;">ratings : {{item.ratings}}</h3>
+        
+        <h3 style="padding-left: 10px;padding-top: 10px;">year :  {{item.year}}</h3>
+        <h3 style="padding-left: 10px;padding-top: 10px;">link :  {{item.link}}</h3>
+        <h3 style="padding-left: 10px;padding-top: 2px;">watch at :  {{item.watchat}}</h3>
+        
+      </div>
+     
+      {% endfor %}
+</div>
+
+{% endblock content %}

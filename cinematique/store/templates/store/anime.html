@@ -12,18 +12,27 @@
 
 {% for item in items %}
 <link rel="stylesheet" href="{% static 'css/anime.css' %}"> 
+
 <div class="container">
 
        
     <div class="box">
-      <img src="{% static 'images/placeholder.png' %}" alt="" width="100%" height="400px">
-        <div class="details">
-          <h3 class="tex" >{{item.name}}</h3>
-        </div>
-          <a class="bn" href="/newtab">Description</a>
+       <img style="border-radius: 15px;" src="{{item.image.url}}" alt="" width="100%" height="400px">
+         <div class="details">
+           <h3 class="tex" >{{item.name}}</h3>
+           
+         </div>
+            <!-- <a class="bn" href="/newtab">Description</a> -->
+          <form action="/newtab/{{item.id}}" method="POST">
+            {% csrf_token %}
+            <input style="margin-bottom: 9px; border-radius: 3px solid green;
+             outline :none;"
+             type="submit" value="Description">
+          </form>
     </div>
 
-
 </div>
+
 {% endfor %}  
+
 {% endblock content %}

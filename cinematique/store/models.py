@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
 
-class bollywood(models.Model):
+class Bollywood(models.Model):
     name = models.CharField(max_length=60)
     year = models.IntegerField()
     ratings = models.FloatField()
@@ -13,7 +13,7 @@ class bollywood(models.Model):
         return self.name
 
 
-class hollywood(models.Model):
+class Hollywood(models.Model):
     name = models.CharField(max_length=60)
     year = models.IntegerField()
     ratings = models.FloatField()
@@ -37,7 +37,7 @@ class Anime(models.Model):
 
 
 
-class web(models.Model):
+class Web(models.Model):
     name = models.CharField(max_length=60)
     year = models.IntegerField()
     ratings = models.FloatField()

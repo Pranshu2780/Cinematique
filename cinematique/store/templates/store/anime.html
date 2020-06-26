@@ -20,7 +20,11 @@
         <div class="details">
           <h3 class="tex" >{{item.name}}</h3>
         </div>
-          <a class="bn" href="/newtab">Description</a>
+          <!-- <a class="bn" href="/newtab">Description</a> -->
+          <form action="/newtab/{{item.id}}" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="Description">
+          </form>
     </div>
 
 

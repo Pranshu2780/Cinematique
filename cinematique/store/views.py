@@ -45,6 +45,17 @@ def web(request):
     context = {}
     return render(request,'store/web.html',context)
 
-def newtab(request):
-    context = {}
+def newtab(request,num):
+    
+
+    
+
+
+
+    data=Anime.objects.filter(id=num)
+    print(data)
+
+    for i in data:
+        print(i.ratings)
+    context = {'anime':data}
     return render(request,'store/newtab.html',context)

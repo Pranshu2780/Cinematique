@@ -10,15 +10,19 @@
          src="{% static 'images/placeholder.png'  %}" alt="" width="100%" height="100%">
       </div>
     
+      {% for item in anime %}
+    
       <div style="color: white;" class="pres">
-        <h1 style="text-align: center;padding-top: 50px;">details </h1>
-        <h3 style="padding-left: 10px;padding-top: 20px;">ratings :</h3>
+        <h1 style="text-align: center;padding-top: 50px;">details :</h1>
+        <h3 style="padding-left: 10px;padding-top: 20px;">ratings : {{item.ratings}}</h3>
         
-        <h3 style="padding-left: 10px;padding-top: 20px;">year :</h3>
-        <h3 style="padding-left: 10px;padding-top: 20px;">link :</h3>
-        <h3 style="padding-left: 10px;padding-top: 20px;">watch at :</h3>
+        <h3 style="padding-left: 10px;padding-top: 20px;">year :  {{item.year}}</h3>
+        <h3 style="padding-left: 10px;padding-top: 20px;">link :  {{item.link}}</h3>
+        <h3 style="padding-left: 10px;padding-top: 20px;">watch at :  {{item.watchat}}</h3>
         
+          
       </div>
+      {% endfor %}
      
     
 </div>

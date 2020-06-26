@@ -10,4 +10,5 @@ urlpatterns= [
     path('bollywood/',views.bollywood,name="bollywood"),
     path('anime/',views.anime,name="anime"),
     path('web/',views.web,name="web"),
+    path('newtab/',views.newtab,name="newtab"),
 ]

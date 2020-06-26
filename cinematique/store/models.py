@@ -8,7 +8,7 @@ class bollywood(models.Model):
     ratings = models.FloatField()
     watchat = models.CharField(max_length=60)
     link = models.URLField(max_length = 200) 
-
+    image = models.ImageField(null=True, blank=True)
     def __str__(self):
         return self.name
 
@@ -19,18 +19,19 @@ class hollywood(models.Model):
     ratings = models.FloatField()
     watchat = models.CharField(max_length=60)
     link = models.URLField(max_length = 200) 
-
+    image = models.ImageField(null=True, blank=True)   
     def __str__(self):
         return self.name        
 
 
-class anime(models.Model):
+class Anime(models.Model):
     name = models.CharField(max_length=60)
     year = models.IntegerField()
     ratings = models.FloatField()
-    watchat = models.CharField(max_length=60)
+    watchat = models.CharField(max_length=60 )
     link = models.URLField(max_length = 200) 
-
+    image = models.ImageField(null=True, blank=True)
+    seasons = models.IntegerField(default='1')
     def __str__(self):
         return self.name
 
@@ -42,6 +43,7 @@ class web(models.Model):
     ratings = models.FloatField()
     watchat = models.CharField(max_length=60)
     link = models.URLField(max_length = 200) 
-
+    image = models.ImageField(null=True, blank=True)
+    seasons = models.IntegerField(default='1')
     def __str__(self):
         return self.name

@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from django.contrib import messages
 from django.contrib.auth.models import User,auth
-
+from .models import * 
 # Create your views here.
 
 # def login(request):
@@ -36,10 +36,15 @@ def bollywood(request):
 
     
 def anime(request):
-    context = {}
+    items = Anime.objects.all()
+    context = {'items':items}
     return render(request,'store/anime.html',context)
 
     
 def web(request):
     context = {}
     return render(request,'store/web.html',context)
+
+def newtab(request):
+    context = {}
+    return render(request,'store/newtab.html',context)

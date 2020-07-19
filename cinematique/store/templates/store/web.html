@@ -10,11 +10,11 @@
 <!-- <link rel="stylesheet" href="{% static 'css/main.css' %}"> -->
 
 
-{% for item in items %}
+
 <link rel="stylesheet" href="{% static 'css/anime.css' %}"> 
 
 <div class="container">
-
+  {% for item in items %}
        
     <div class="box">
        <img style="border-radius: 15px;" src="{{item.image.url}}" alt="" width="100%" height="400px">
@@ -25,14 +25,15 @@
             <!-- <a class="bn" href="/newtab">Description</a> -->
           <form action="/newtab1/{{item.id}}" method="POST">
             {% csrf_token %}
-            <input style="margin-bottom: 9px; border-radius: 3px solid green;
-             outline :none;"
-             type="submit" value="Description">
+            <div class="sub_btn">
+              <input type="submit" value="Description">
+            </div>
+            
           </form>
     </div>
-
+    {% endfor %}  
 </div>
 
-{% endfor %}  
+
 
 {% endblock content %}

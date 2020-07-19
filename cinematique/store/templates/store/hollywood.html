@@ -10,16 +10,16 @@
 <!-- <link rel="stylesheet" href="{% static 'css/main.css' %}"> -->
 
 
-{% for item in items %}
+
 <link rel="stylesheet" href="{% static 'css/anime.css' %}"> 
 
 <div class="container">
-
+  {% for item in items %}
        
     <div class="box">
        <img style="border-radius: 15px;" src="{{item.image.url}}" alt="" width="100%" height="400px">
          <div class="details">
-           <h3 class="tex" >{{item.name}}</h3>
+           <h3 class="tex" style="color:red;" >{{item.name}}</h3>
            
          </div>
             <!-- <a class="bn" href="/newtab">Description</a> -->
@@ -30,9 +30,9 @@
              type="submit" value="Description">
           </form>
     </div>
-
+    {% endfor %} 
 </div>
 
-{% endfor %}  
+ 
 
 {% endblock content %}

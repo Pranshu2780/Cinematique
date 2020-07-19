@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     /* background-color: #a4152c; */
+    background-color: gray;
 }
 
 
@@ -32,7 +33,7 @@ a{
 
 .box{
     width: 270px;
-    height: 700px;
+    height: 600px;
     background-color: #1e1e26;
     border-radius: 10px;
     box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -42,6 +43,7 @@ a{
     justify-content: space-between; */
     justify-content: space-around   ;
     margin: 20px 10px;
+    flex: 1 0 21%;
     /* margin-right: 30px; */
 }
 
@@ -53,7 +55,7 @@ a{
 }
 
 .tex{
-    color: white;
+    color: red;
     font-weight: bold;
     margin-top: 10px;
     margin-left:10px;
@@ -86,4 +88,8 @@ a{
     border-radius: 3px solid green;
     outline: none;
     background: none;
+}
+
+.sub_btn{
+    margin: 10px;
 }

@@ -5,8 +5,9 @@ body{
 }
 
 .boxy{
-    width: 720px;
+    width: 75%;
     height: 610px;
+    min-width: 200px;
     background-color:blue;
     border-radius: 10px;
     box-shadow: 2px 10px 12px rgba(0,0,0,0.5);

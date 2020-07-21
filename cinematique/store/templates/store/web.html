@@ -18,17 +18,18 @@
        
     <div class="box">
        <img style="border-radius: 15px;" src="{{item.image.url}}" alt="" width="100%" height="400px">
-         <div class="details">
+       <hr style="color: magneta;">
+       <div class="details">
            <h3 class="tex" style="color:red;">{{item.name}}</h3>
          </div>  <!--details-->
-
+         <hr style="color: magneta;">
             <!-- <a class="bn" href="/newtab">Description</a> -->
           <form action="/newtab1/{{item.id}}" method="POST">
             {% csrf_token %}
-            <div class="sub_btn">
+            <div id="form">
               <input type="submit" value="Description">
-            </div>
-            
+
+           </div>
           </form>
     </div>
     {% endfor %}  

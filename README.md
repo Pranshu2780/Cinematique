@@ -15,12 +15,12 @@ Database: dbsqlite
 1. Install python and django on your local system.
 
 For python: https://www.python.org/downloads/  <br/>
-For Django: pip insatll django 
+For Django:  <b>pip install django</b> 
 
 2. Fork repository .
 3. Open terminal, reach upto the place where you store that repository.
 4. cd cinematique.
-5. After that python manage.py runserver
+5. After that <b>python manage.py runserver</b>
 6. This website will deploy on http://127.0.0.1:8000/
 
 

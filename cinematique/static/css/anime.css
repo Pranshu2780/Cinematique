@@ -34,7 +34,7 @@ a{
 .box{
     width: 220px;
     height: 520px;
-    min-width: 200px;
+    min-width: 150px;
     background-color: #1e1e26;
     border-radius: 10px;
     box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -87,8 +87,15 @@ a{
 }
 
 #form input{
-    background:orange;
+    background:orangered;
     color: white;
+    font-weight: bold;
     outline: none;
     padding-left: 10px;
+}
+
+#form input:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transition: all ease 0.3s;
 }

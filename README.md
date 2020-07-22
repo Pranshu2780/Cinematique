@@ -4,8 +4,8 @@ This website is built to save time for movies and web lovers.  It has ratings an
 
 ### Stacks Used
 
-Front-End : HTML/CSS, Javascript <br\>
-Back-end : Django <br\>
+Front-End : HTML/CSS, Javascript <br/>
+Back-end : Django <br/>
 Database: dbsqlite
 
 ### Todo
@@ -14,7 +14,7 @@ Database: dbsqlite
 ### How to run project locally
 1. Install python and django on your local system.
 
-For python: https://www.python.org/downloads/  <br\>
+For python: https://www.python.org/downloads/  <br/>
 For Django: pip insatll django 
 
 2. Fork repository .

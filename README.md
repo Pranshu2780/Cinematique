@@ -25,3 +25,11 @@ For Django:  <b>pip install django</b>
 
 
 ### Images of website
+![ss1](https://user-images.githubusercontent.com/47604864/88197841-a8414d00-cc60-11ea-8f6c-8b0fd66d43b0.PNG)
+
+![ss-2](https://user-images.githubusercontent.com/47604864/88198185-138b1f00-cc61-11ea-9f40-8251061ddf3f.PNG)
+![Uploading ss-2.PNG…]()
+![ss-3](https://user-images.githubusercontent.com/47604864/88198242-243b9500-cc61-11ea-912b-44f7846d2845.PNG)
+![ss-4](https://user-images.githubusercontent.com/47604864/88198426-4df4bc00-cc61-11ea-9b75-ff65775209ba.PNG)
+![ss-5](https://user-images.githubusercontent.com/47604864/88198477-5c42d800-cc61-11ea-91af-efb0ab47e021.PNG)
+

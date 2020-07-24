@@ -20,6 +20,7 @@ body{
 
 .pres{
     width: 320px;
+    width: 35%;
     height: 410px;
     background-color: #1e1e26;
     border-radius: 10px;
@@ -37,6 +38,7 @@ body{
 
 .pres1{
     width: 200px;
+    width :35%;
     height: 410px;
     background-color: #1e1e26;
     border-radius: 10px;

@@ -88,6 +88,7 @@ a{
 
 #form input{
     background:orangered;
+    opacity: .8;
     color: white;
     font-weight: bold;
     outline: none;
@@ -95,6 +96,8 @@ a{
 }
 
 #form input:hover{
+    opacity: 1;
+    cursor: pointer;
     transform-style: preserve-3d;
     transform: scale(1.02);
     transition: all ease 0.3s;

@@ -1,4 +1,4 @@
-## Cinematiqu
+## Cinematique
 This website is built to save time for movies and web lovers.  It has ratings and links toovies(Hollywood, Bollywood) and web series(Hindi, English, Anime).
 
 ### Stacks Used
